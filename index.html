@@ -3,22 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC (120 ADVANCED ITEMS)</title>
+    <title>TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC (120 ITEMS)</title>
 
-    <!-- Social Media Meta Tags / Open Graph & Twitter Cards for FB, WA, IG, etc. -->
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC (120 ADVANCED ITEMS)" />
-    <meta property="og:description" content="Advanced Master Tryout Prometric Nursing Examination (120 Items) - Rigorous Case Vignettes rooted strictly in foundational Prometric test banks." />
-    <meta property="og:image" content="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg" />
-    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
+    <!-- Open Graph / Social Media Preview Meta Tags (FB, WA, IG, LinkedIn) -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gyoutrain-lab.github.io/nursing-prometric_TJL_PromedMat/">
+    <meta property="og:title" content="TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC (120 ITEMS)">
+    <meta property="og:description" content="Comprehensive 120-Question Nursing & Medical Master Tryout Prometric Simulator (SCFHS Threshold 60%). Features real-time timing, instant grading, rationales, and operator panel.">
+    <meta property="og:image" content="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg">
+    <meta property="og:image:secure_url" content="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC" />
-    <meta name="twitter:description" content="120-Item Advanced Master Tryout Prometric Exam with interactive timer, detailed rationales, and operator tools." />
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg" />
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC (120 ITEMS)">
+    <meta name="twitter:description" content="Comprehensive 120-Question Nursing & Medical Master Tryout Prometric Simulator (SCFHS Threshold 60%). Features real-time timing, instant grading, rationales, and operator panel.">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg">
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Quiz",
+      "name": "TJL PROMED ACADEMY 2026 - MASTER TRYOUT PROMETRIC (120 ITEMS)",
+      "description": "Master Examination Simulator for Prometric Medical & Nursing Certification (SCFHS Exam Code 24-0022/0023).",
+      "image": "https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg",
+      "educationalUse": "Assessment",
+      "hasPart": {
+        "@type": "Question",
+        "name": "Prometric Master Test Bank (120 Questions)"
+      }
+    }
+    </script>
+
+    <!-- Favicon & Thumbnail link -->
+    <link rel="image_src" href="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg">
+    <link rel="icon" href="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg" type="image/jpeg">
 
     <style>
         :root {
@@ -65,6 +87,15 @@
             position: relative;
         }
 
+        .banner-img {
+            width: 100%;
+            max-height: 280px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+        }
+
         header h1 {
             color: var(--primary);
             font-size: 26px;
@@ -78,15 +109,6 @@
             color: #64748b;
             font-weight: 600;
             margin-bottom: 15px;
-        }
-
-        .header-banner {
-            width: 100%;
-            max-height: 260px;
-            object-fit: cover;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
         }
 
         .meta-board {
@@ -385,12 +407,9 @@
 <div class="container">
     <header>
         <button class="op-toggle-btn" onclick="toggleOpPanel()">⚙️ Operator</button>
-        <img src="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg" 
-             alt="TJL PROMED ACADEMY Banner" 
-             class="header-banner"
-             onerror="this.style.display='none';">
+        <img src="https://raw.githubusercontent.com/gyoutrain-lab/nursing-prometric_TJL_PromedMat/main/tjl_promed.jpg" alt="TJL Promed Banner" class="banner-img" onerror="this.style.display='none';">
         <h1>TJL PROMED ACADEMY 2026</h1>
-        <h2>MASTER TRYOUT PROMETRIC - ADVANCED LEVEL 4 VIGNETTES (120 ITEMS)</h2>
+        <h2>MASTER TRYOUT PROMETRIC (LEVEL 4 CLINICAL VIGNETTES - 120 ITEMS)</h2>
         
         <div class="meta-board">
             <div class="meta-item">
@@ -452,7 +471,7 @@
 </div>
 
 <script>
-    // 120 Advanced Level-4 Clinical Vignettes rooted strictly in PROMED MAT 1.txt foundational concepts[cite: 8]
+    // 120 Advanced Level-4 Clinical Vignettes rooted strictly in PROMED MAT 1.txt foundational concepts
     const questionsData = [
         {
             "id": 1,
@@ -1452,7 +1471,7 @@
         },
         {
             "id": 84,
-            "question": "A primiparous client 4 hours post-delivery refuses to feed her newborn due to extreme tiredness. The nurse recognizes this as a behavior of:",
+            "question": "A primiparous client 4 post-delivery refuses to feed her newborn due to extreme tiredness. The nurse recognizes this as a behavior of:",
             "options": {
                 "A": "The taking-in stage",
                 "B": "The taking-hold stage",
